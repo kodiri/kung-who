@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const port = process.env.PORT || 3001;
 const getProfiles = require('./profiles');
+require('dotenv').config();
 
 app.get('/rest/profiles/:id', (req, res) => {
     res.send(getProfiles().find(profile => profile.id === req.params.id));

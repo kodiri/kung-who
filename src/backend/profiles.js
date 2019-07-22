@@ -1,64 +1,63 @@
-// "https://www.google.com/maps/embed/v1/place?q=bermondsey&key=AIzaSyA2mnrO-E4fx-eXWvqFrYbsVMxeF8le030"
-// "https://www.google.com/maps/embed/v1/place?q=canada%20water&key=AIzaSyA2mnrO-E4fx-eXWvqFrYbsVMxeF8le030"
-// "https://www.google.com/maps/embed/v1/place?q=Surrey%20Quays&key=AIzaSyA2mnrO-E4fx-eXWvqFrYbsVMxeF8le030"
-// "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRfG3JloDdkgRwh6IcCt6xNE&key=AIzaSyA2mnrO-E4fx-eXWvqFrYbsVMxeF8le030"
-// "https://www.google.com/maps/embed/v1/place?q=Limehouse&key=AIzaSyA2mnrO-E4fx-eXWvqFrYbsVMxeF8le030"
-
 
 let getProfiles = function() {
     return [
         { 
             id: 'adamsmith', 
+            fullname: 'Adam Smith',
             firstname: 'Adam', 
             lastname: 'Smith', 
             address: 'Bermondsey',
             map: 'bermondsey',
             rate: '20',
-            type: 'Tai-Chi',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' 
+            type: 'Judo',
+            description: 'I am currently in my final year studying at the University of London, where I am a member of the university Judo team. I have given lessons in Judo and self-defence before to both men and women, both beginners and more experienced individuals.' 
         },
         { 
             id: 'katieberry', 
+            fullname: 'Katie Berry',
             firstname: 'Katie', 
             lastname: 'Berry', 
             address: 'Canada Water', 
             map: 'canada%20water',
-            rate: '30',
-            type: 'Wing-Chun',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+            rate: '40',
+            type: 'Taekwondo',
+            description: 'I am a female British & World Champion Martial Arts Instructor. With over 10 years experience. I teach from age 5+.',
           },
         {
             id: 'natalieprice', 
+            fullname: 'Natalie Price',
             firstname: 'Natalie', 
             lastname: 'Price', 
             gender: 'Female',
-            address: 'Surrey Quays', 
+            address: 'Peckham', 
             map: 'peckham',
             rate: '30',
-            type: 'Wing-Chun',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' 
+            type: 'Boxing',
+            description: 'I’m a boxer, I’ve been on my National team for two years, and I have experience with kids and beginners.' 
             },
         { 
             id: 'peterjones', 
+            fullname: 'Peter Jones',
             firstname: 'Peter', 
             lastname: 'Jones', 
             gender: 'Male',
-            address: 'Southwark', 
+            address: 'Deptford', 
             map: 'deptford',
             rate: 30,
-            type: 'Wing-Chun',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' 
+            type: 'karate',
+            description: 'I have been teaching karate and self defence for over 8 years, still teaching in central London. I have taught students that have won competitions nationally and internationally I also teach self defense to adults.' 
             },
         {
             id: 'sarahhills', 
+            fullname: 'Sarah Hills',
             firstname: 'Sarah', 
             lastname: 'Hills', 
             gender: 'Female',
             address: 'Limehouse', 
             map: 'Limehouse',
-            rate: '30',
-            type: 'Wing-Chun',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' 
+            rate: '25',
+            type: 'judo',
+            description: 'I have been learning Judo for over 5 years and I have been voluntarily instructing for about 2 years! I love the sport and want to make it more accessible for those unable to or simply those that are not feeling ready to walk into their first Judo club.' 
         }
     ];
 }
